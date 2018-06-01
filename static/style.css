@@ -1,5 +1,4 @@
-div {
-  text-align: center;
-  font-size: 2em;
-  background-color: red;
+body {
+  background-color: blue;
+  color: white;
 }

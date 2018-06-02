@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Sports Trivia</title>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="static/style.css">
  </head>
 <body>
@@ -11,22 +12,79 @@
     <img src='static/champions.jpg' alt="champion">
   </header>
   <main>
-    <form action=''>
-      <ol>
-        <li>What team won the superbowl in 2018</li><br>
-          <input type='text'>
-        <li>What team won the superbowl in 2017</li><br>
-          <input type='text'>
-        <li>What team the NBA title in 2017?</li><br>
-          <input type='text'>
-        <li>What team won the World series in 2017?</li><br>
-          <input type='text'>
-        <li>"What team won the World series in 2016?"</li><br>
-          <input type='text'>
   <div>
-  </div>
-  <div id=#output>
-
+    <form action=''>
+      <ol class="ordered">
+        <li>What team won the superbowl in 2018</li><br>
+          <label>
+            <input type="radio" name="superbowl18">Patriots
+          </label>
+          <label>
+            <input type="radio" name="superbowl18">Steelers
+          </label>
+          <label>
+            <input type="radio" name="superbowl18">Tigercats
+          </label>
+          <label>
+            <input type="radio" name="superbowl18">Eagles
+          </label>
+          <button type='submit'>Submit</button>
+        <li>What team won the superbowl in 2017</li><br>
+        <label>
+          <input type="radio" name="superbowl17">Broncos
+        </label>
+        <label>
+          <input type="radio" name="superbowl17">Panthers
+        </label>
+        <label>
+          <input type="radio" name="superbowl17">Falcons
+        </label>
+        <label>
+          <input type="radio" name="superbowl17">Patriots
+        </label>
+          <input type='submit'>
+        <li>What team the NBA title in 2017?</li><br>
+        <label>
+          <input type="radio" name="NBA2017">Cavaliers
+        </label>
+        <label>
+          <input type="radio" name="NBA2017">Warriors
+        </label>
+        <label>
+          <input type="radio" name="NBA2017">Celtics
+        </label>
+        <label>
+          <input type="radio" name="NBA2017">Suns
+        </label>
+          <input type='submit'>
+        <li>What golfer won the Masters in 2016?</li><br>
+        <label>
+          <input type="radio" name="masters">Sergio Garcia
+        </label>
+        <label>
+          <input type="radio" name="masters">Bubba Watson
+        </label>
+        <label>
+          <input type="radio" name="masters">Jordan Speith
+        </label>
+        <label>
+          <input type="radio" name="masters">Tiger Woods
+          <input type='submit'>
+        <li>"What team won the World series in 2016?"</li><br>
+        <label>
+          <input type="radio" name="WS">Indians
+        </label>
+        <label>
+          <input type="radio" name="WS">Cubs
+        </label>
+        <label>
+          <input type="radio" name="WS">Yankees
+        </label>
+        <label>
+          <input type="radio" name="WS">Dodgers
+          <input type='submit'>
+        </ol>
+    </form>
   </div>
   <script src="sports_quiz.js"></script>
 </body>

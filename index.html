@@ -12,7 +12,7 @@
     <img src='static/champions.jpg' alt="champion">
   </header>
   <main>
-  <div>
+  <div class="backcolo">
     <form action=''>
       <ol class="ordered">
         <li>What team won the superbowl in 2018</li><br>
@@ -28,7 +28,6 @@
           <label>
             <input type="radio" name="superbowl18">Eagles
           </label>
-          <button type='submit'>Submit</button>
         <li>What team won the superbowl in 2017</li><br>
         <label>
           <input type="radio" name="superbowl17">Broncos
@@ -42,7 +41,6 @@
         <label>
           <input type="radio" name="superbowl17">Patriots
         </label>
-          <input type='submit'>
         <li>What team the NBA title in 2017?</li><br>
         <label>
           <input type="radio" name="NBA2017">Cavaliers
@@ -56,7 +54,6 @@
         <label>
           <input type="radio" name="NBA2017">Suns
         </label>
-          <input type='submit'>
         <li>What golfer won the Masters in 2016?</li><br>
         <label>
           <input type="radio" name="masters">Sergio Garcia
@@ -69,7 +66,6 @@
         </label>
         <label>
           <input type="radio" name="masters">Tiger Woods
-          <input type='submit'>
         <li>"What team won the World series in 2016?"</li><br>
         <label>
           <input type="radio" name="WS">Indians
@@ -82,8 +78,9 @@
         </label>
         <label>
           <input type="radio" name="WS">Dodgers
-          <input type='submit'>
-        </ol>
+        </label>
+      </ol>
+        <button type='submit'>Submit</button>
     </form>
   </div>
   <script src="sports_quiz.js"></script>

@@ -1,24 +1,42 @@
+h1{
+  font-size: 45px;
+}
+
 body {
-  color: white;
+  color: red;
   text-align: center;
-  background-color: green;
+  background-color: orange;
+  opacity: 0.9;
 }
 
 img {
   box-sizing: border-box;
   width: 800px;
+  margin: auto;
 }
 
 li {
-  color: red;
+  color: orange;
   font-size: 1.3em;
   margin: 10px 0;
+  position: relative;
+  top: 10px;
 }
 
 .ordered {
   list-style-position: inside;
 }
-.backcolo {
+/* .backcolo {
   background-color: rgba(45, 45, 45, 0.1);
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+} */
+button:hover{
+  color:red;
+}
+strong{
+  color: orange:
+}
+
+div {
+  background-color: blue;
 }

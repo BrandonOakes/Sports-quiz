@@ -6,7 +6,14 @@
 //             [prompt("What team won the World series in 2017?"), 'ASTROS'],
 //             [prompt("What team won the World series in 2016?"), 'CUBS']
 //           ];
-let lis = document.getElementsbyTagName('li')
+let lis = document.getElementsByTagName('li')
 lis.addEventListener('mouseover', () => {
   lis.setAttribute('style', 'color:red')
 })
+
+let button = document.getElementsByTagName('button')[0];
+
+button.addEventListener('click', () => {
+    document.body.style.backgroundColor = "blue";
+}
+)

@@ -1,8 +1,6 @@
 # Sports-quiz
 
-Sports quiz utilizing Javascript if/else if statements and prompt to ask user 5 questions related to sports. 
-If user answer between 0-2 correct they will be prompted with "Bench player". If they answer 3-4 questions 
-correctly they will be prompted with "Starter". If all 5 questions are answered correctly user will be prompted with "All-Star". The questions are not case sensative.
+Layout webpage for sports quiz.
 
 ## Getting Started:
 

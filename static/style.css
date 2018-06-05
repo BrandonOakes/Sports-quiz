@@ -3,16 +3,20 @@ h1{
 }
 
 body {
-  color: red;
-  text-align: center;
-  background-color: orange;
+  color: white;
+  /* background-color: orange; */
   opacity: 0.9;
+  background: url('greatest.jpg')
 }
-
+header {
+  /* background: orange; */
+  text-align: center;
+}
 img {
   box-sizing: border-box;
   width: 800px;
   margin: auto;
+  transform: scale(.85);
 }
 
 li {
@@ -32,11 +36,14 @@ li {
 } */
 button:hover{
   color:red;
+  transform: scale(1.5);
 }
 strong{
   color: orange:
 }
 
 div {
-  background-color: blue;
+  /* background-color: blue; */
+  /* background: url('greatest.jpg'); */
+  text-align: left;
 }
